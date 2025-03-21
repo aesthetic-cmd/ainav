@@ -38,8 +38,16 @@ const nextConfig = {
       "gamma.app",
       "mem.ai",
       "otter.ai",
-      "www.dropbox.com"
+      "www.dropbox.com",
+      "www.heygen.com",
+      "www.descript.com",
+      "www.cognition.ai",
+      "yiyan.baidu.com",
+      "xinghuo.xfyun.cn",
+      "ilingban.com",
+      "jasper.ai"
     ],
+    deviceSizes: [640, 750, 828, 1080, 1200, 1920, 2048, 3840],
     imageSizes: [16, 32, 48, 64, 128, 256, 384, 512],
     remotePatterns: [
       {
