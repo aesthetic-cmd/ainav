@@ -38,11 +38,17 @@ export default function Home() {
 
         <main className="flex-1 p-6 overflow-y-auto lg:ml-64">
           <div className="max-w-7xl mx-auto">
-            <div className="mb-8">
-              <h1 className="text-2xl font-bold text-center mb-2">AInav - AI导航网 | 发现优质AI工具，为你导航未来</h1>
-              <p className="text-gray-600 text-center max-w-3xl mx-auto">
-                AI导航网收录了国内外1000+AI工具，AI绘画、AI对话聊天、AI视频制作等多个领域
+            <div className="mb-12 py-8 text-center">
+              <h1 className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+                AInav - AI导航网 | 发现优质AI工具，为你导航未来
+              </h1>
+              <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+                收录<span className="font-bold text-blue-600">1000+</span>优质AI工具，涵盖AI对话、绘画、视频制作、写作等多个领域
               </p>
+              <div className="mt-6 inline-flex items-center text-sm text-gray-500 bg-gray-50 px-4 py-2 rounded-full">
+                <span className="animate-pulse mr-2 h-2 w-2 rounded-full bg-green-500"></span>
+                持续更新中，每周添加新工具
+              </div>
             </div>
 
             <div className="py-4 space-y-10">
@@ -112,9 +118,28 @@ export default function Home() {
         </main>
       </div>
 
-      <footer className="bg-white py-6 border-t border-gray-200 lg:ml-64">
-        <div className="container mx-auto px-4 text-center text-sm text-gray-500">
-          <p>&copy; {new Date().getFullYear()} AI导航网 - 收录优质AI工具</p>
+      <footer className="bg-white py-8 border-t border-gray-200 lg:ml-64">
+        <div className="container mx-auto px-4 text-center">
+          <div className="mb-4 flex justify-center space-x-6">
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              关于我们
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              联系方式
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              免责声明
+            </a>
+            <a href="#" className="text-gray-500 hover:text-blue-600 transition-colors">
+              隐私政策
+            </a>
+          </div>
+          <p className="text-sm text-gray-500">
+            &copy; {new Date().getFullYear()} AI导航网 - 精选全球优质AI工具，提供专业导航服务
+          </p>
+          <p className="text-xs text-gray-400 mt-2">
+            本站仅提供AI工具导航服务，所有工具版权归原作者所有
+          </p>
         </div>
       </footer>
     </div>
