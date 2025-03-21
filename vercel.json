@@ -32,7 +32,6 @@
     }
   ],
   "images": {
-    "domains": ["ext.same-assets.com", "placehold.co"],
-    "imageSizes": [16, 32, 48, 64, 128, 256, 384, 512]
+    "domains": ["ext.same-assets.com", "placehold.co"]
   }
 } 
