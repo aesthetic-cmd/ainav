@@ -1,0 +1,30 @@
+[images]
+  remote_images = [
+    "https://ext.same-assets.com/**"
+  ]
+
+[build]
+  command = "bun run build"
+  publish = ".next"
+
+[build.environment]
+  NEXT_USE_NETLIFY_EDGE = "true"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[functions]
+  external_node_modules = ["@swc/core"]
+
+[[headers]]
+  for = "/_next/image*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
