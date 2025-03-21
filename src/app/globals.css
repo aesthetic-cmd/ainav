@@ -66,4 +66,15 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* 平滑滚动效果 */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* 锚点偏移，避免内容被顶部导航栏遮挡 */
+  [id] {
+    scroll-margin-top: 100px;
+    padding-top: 20px;
+  }
 }

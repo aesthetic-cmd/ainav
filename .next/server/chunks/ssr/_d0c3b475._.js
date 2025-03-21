@@ -1,6 +1,6 @@
 module.exports = {
 
-"[project]/.next-internal/server/app/page/actions.js [app-rsc] (server actions loader, ecmascript)": (function(__turbopack_context__) {
+"[project]/.next-internal/server/app/[slug]/page/actions.js [app-rsc] (server actions loader, ecmascript)": (function(__turbopack_context__) {
 
 var { g: global, __dirname, m: module, e: exports } = __turbopack_context__;
 {
@@ -11,333 +11,11 @@ var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.n(__turbopack_context__.i("[project]/src/app/layout.tsx [app-rsc] (ecmascript)"));
 }}),
-"[project]/src/components/ui/input.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
+"[project]/src/app/not-found.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.s({
-    "Input": (()=>Input)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-rsc] (ecmascript)");
-;
-;
-;
-const Input = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, type, ...props }, ref)=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
-        type: type,
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])("flex h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-base shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm", className),
-        ref: ref,
-        ...props
-    }, void 0, false, {
-        fileName: "[project]/src/components/ui/input.tsx",
-        lineNumber: 8,
-        columnNumber: 7
-    }, this);
-});
-Input.displayName = "Input";
-;
-}}),
-"[project]/src/components/ui/button.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "Button": (()=>Button),
-    "buttonVariants": (()=>buttonVariants)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/@radix-ui/react-slot/dist/index.mjs [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$class$2d$variance$2d$authority$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/class-variance-authority/dist/index.mjs [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-rsc] (ecmascript)");
-;
-;
-;
-;
-;
-const buttonVariants = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$class$2d$variance$2d$authority$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cva"])("inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0", {
-    variants: {
-        variant: {
-            default: "bg-primary text-primary-foreground shadow hover:bg-primary/90",
-            destructive: "bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90",
-            outline: "border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground",
-            secondary: "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
-            ghost: "hover:bg-accent hover:text-accent-foreground",
-            link: "text-primary underline-offset-4 hover:underline"
-        },
-        size: {
-            default: "h-9 px-4 py-2",
-            sm: "h-8 rounded-md px-3 text-xs",
-            lg: "h-10 rounded-md px-8",
-            icon: "h-9 w-9"
-        }
-    },
-    defaultVariants: {
-        variant: "default",
-        size: "default"
-    }
-});
-const Button = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["forwardRef"])(({ className, variant, size, asChild = false, ...props }, ref)=>{
-    const Comp = asChild ? __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$radix$2d$ui$2f$react$2d$slot$2f$dist$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Slot"] : "button";
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(Comp, {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["cn"])(buttonVariants({
-            variant,
-            size,
-            className
-        })),
-        ref: ref,
-        ...props
-    }, void 0, false, {
-        fileName: "[project]/src/components/ui/button.tsx",
-        lineNumber: 47,
-        columnNumber: 7
-    }, this);
-});
-Button.displayName = "Button";
-;
-}}),
-"[project]/src/components/header.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
-"use strict";
-
-var { g: global, __dirname } = __turbopack_context__;
-{
-__turbopack_context__.s({
-    "Header": (()=>Header)
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/input.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/ui/button.tsx [app-rsc] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/search.js [app-rsc] (ecmascript) <export default as Search>");
-;
-;
-;
-;
-;
-;
-function Header() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-        className: "w-full bg-white border-b border-gray-200 sticky top-0 z-50",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container mx-auto px-4 py-3 flex items-center justify-between",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex items-center gap-2",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                        href: "/",
-                        className: "flex items-center gap-2",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://ext.same-assets.com/3456190305/1117858943.png",
-                                alt: "AI导航网",
-                                width: 40,
-                                height: 40,
-                                className: "h-10 w-auto"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 13,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                                src: "https://ext.same-assets.com/3456190305/3123139570.png",
-                                alt: "AI导航网",
-                                width: 120,
-                                height: 40,
-                                className: "h-10 w-auto hidden sm:block"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 20,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/header.tsx",
-                        lineNumber: 12,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/header.tsx",
-                    lineNumber: 11,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex-1 max-w-xl mx-4 hidden md:flex",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "relative w-full",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$input$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Input"], {
-                                type: "text",
-                                placeholder: "探索国内外AI应用，找到适合你的AI工具...",
-                                className: "w-full pr-10 rounded-full"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 32,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Button"], {
-                                size: "icon",
-                                variant: "ghost",
-                                className: "absolute right-0 top-0 h-full rounded-r-full",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
-                                    className: "h-4 w-4"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/components/header.tsx",
-                                    lineNumber: 42,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 37,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/header.tsx",
-                        lineNumber: 31,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/header.tsx",
-                    lineNumber: 30,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-                    className: "hidden md:flex items-center gap-6",
-                    children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "首页"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 48,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/news",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "AI资讯"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 49,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "/blog",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "专栏"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 50,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.doubao.com/?channel=ainav&source=hw_db_ainav",
-                            target: "_blank",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "AI写作-豆包"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 51,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.youyan3d.com/platform/?utm_source=zhanwaidaoliu&utm_campaign=zwj&utm_content=ainav&from=ainav",
-                            target: "_blank",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "AI 3D"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 52,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                            href: "https://www.aipaperpass.com/?pic=24qA",
-                            target: "_blank",
-                            className: "text-sm font-medium hover:text-blue-600",
-                            children: "AI论文检测"
-                        }, void 0, false, {
-                            fileName: "[project]/src/components/header.tsx",
-                            lineNumber: 53,
-                            columnNumber: 11
-                        }, this)
-                    ]
-                }, void 0, true, {
-                    fileName: "[project]/src/components/header.tsx",
-                    lineNumber: 47,
-                    columnNumber: 9
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                    className: "md:hidden",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                        xmlns: "http://www.w3.org/2000/svg",
-                        width: "24",
-                        height: "24",
-                        viewBox: "0 0 24 24",
-                        fill: "none",
-                        stroke: "currentColor",
-                        strokeWidth: "2",
-                        strokeLinecap: "round",
-                        strokeLinejoin: "round",
-                        children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                x1: "4",
-                                x2: "20",
-                                y1: "12",
-                                y2: "12"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 58,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                x1: "4",
-                                x2: "20",
-                                y1: "6",
-                                y2: "6"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 59,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                x1: "4",
-                                x2: "20",
-                                y1: "18",
-                                y2: "18"
-                            }, void 0, false, {
-                                fileName: "[project]/src/components/header.tsx",
-                                lineNumber: 60,
-                                columnNumber: 13
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/src/components/header.tsx",
-                        lineNumber: 57,
-                        columnNumber: 11
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/src/components/header.tsx",
-                    lineNumber: 56,
-                    columnNumber: 9
-                }, this)
-            ]
-        }, void 0, true, {
-            fileName: "[project]/src/components/header.tsx",
-            lineNumber: 10,
-            columnNumber: 7
-        }, this)
-    }, void 0, false, {
-        fileName: "[project]/src/components/header.tsx",
-        lineNumber: 9,
-        columnNumber: 5
-    }, this);
-}
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/not-found.tsx [app-rsc] (ecmascript)"));
 }}),
 "[project]/src/components/sidebar.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
@@ -351,120 +29,121 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-rsc] (ecmascript)");
 ;
 ;
+// 侧边栏分类数据
 const categories = [
     {
         name: "AI热门工具",
-        slug: "term-699",
+        slug: "featured",
         icon: "🔥"
     },
     {
         name: "AI对话聊天",
-        slug: "term-258",
+        slug: "chat",
         icon: "💬"
     },
     {
         name: "AI文本写作",
-        slug: "term-250",
+        slug: "writing",
         icon: "📝"
     },
     {
         name: "AI绘画生成",
-        slug: "term-221",
+        slug: "art",
         icon: "🎨"
     },
     {
         name: "AI提示词库",
-        slug: "term-367",
+        slug: "prompts",
         icon: "📋"
     },
     {
         name: "AI搜索引擎",
-        slug: "term-1282",
+        slug: "search",
         icon: "🔍"
     },
     {
         name: "AI应用集成",
-        slug: "term-1257",
+        slug: "integration",
         icon: "🔄"
     },
     {
         name: "AI图像处理",
-        slug: "term-241",
+        slug: "image",
         icon: "🖼️"
     },
     {
         name: "AI视频制作",
-        slug: "term-235",
+        slug: "video",
         icon: "🎬"
     },
     {
         name: "AI音频处理",
-        slug: "term-345",
+        slug: "audio",
         icon: "🎵"
     },
     {
         name: "AI文档助手",
-        slug: "term-272",
+        slug: "docs",
         icon: "📄"
     },
     {
         name: "AI办公软件",
-        slug: "term-371",
+        slug: "office",
         icon: "💼"
     },
     {
         name: "AI编程开发",
-        slug: "term-284",
+        slug: "code",
         icon: "💻"
     },
     {
         name: "AI内容鉴别",
-        slug: "term-1130",
+        slug: "content",
         icon: "🔎"
     },
     {
         name: "AI教育学习",
-        slug: "term-24",
+        slug: "education",
         icon: "📚"
     },
     {
         name: "AI算力平台",
-        slug: "term-1373",
+        slug: "computing",
         icon: "⚙️"
     },
     {
         name: "AI工具教程",
-        slug: "term-3",
+        slug: "tutorials",
         icon: "📖"
     },
     {
         name: "AI资讯情报",
-        slug: "term-167",
+        slug: "news",
         icon: "📰"
     },
     {
         name: "AIGC资源",
-        slug: "term-156",
+        slug: "resources",
         icon: "🧰"
     },
     {
         name: "AI模型开源",
-        slug: "term-129",
+        slug: "models",
         icon: "🧩"
     },
     {
         name: "AI商业应用",
-        slug: "term-95",
+        slug: "business",
         icon: "💰"
     },
     {
         name: "AI学习社区",
-        slug: "term-82",
+        slug: "community",
         icon: "👥"
     },
     {
         name: "AI解决方案",
-        slug: "term-935",
+        slug: "solutions",
         icon: "🔧"
     }
 ];
@@ -474,37 +153,37 @@ function Sidebar() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "space-y-1",
             children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
-                    href: `/${category.slug}`,
+                    href: `/#${category.slug}`,
                     className: "flex items-center gap-2 px-3 py-2 text-sm rounded-md hover:bg-gray-100 hover:text-blue-600 transition-colors",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: category.icon
                         }, void 0, false, {
                             fileName: "[project]/src/components/sidebar.tsx",
-                            lineNumber: 39,
+                            lineNumber: 40,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             children: category.name
                         }, void 0, false, {
                             fileName: "[project]/src/components/sidebar.tsx",
-                            lineNumber: 40,
+                            lineNumber: 41,
                             columnNumber: 13
                         }, this)
                     ]
                 }, category.slug, true, {
                     fileName: "[project]/src/components/sidebar.tsx",
-                    lineNumber: 34,
+                    lineNumber: 35,
                     columnNumber: 11
                 }, this))
         }, void 0, false, {
             fileName: "[project]/src/components/sidebar.tsx",
-            lineNumber: 32,
+            lineNumber: 33,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/sidebar.tsx",
-        lineNumber: 31,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }
@@ -1122,39 +801,118 @@ const aiTools = {
     office: aiOfficeSites
 };
 }}),
-"[project]/src/app/page.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
+"[project]/src/app/[slug]/page.tsx [app-rsc] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
 var { g: global, __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
-    "default": (()=>Home)
+    "default": (()=>CategoryPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/header.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sidebar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/sidebar.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/category-section.tsx [app-rsc] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/sites.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$api$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_context__.i("[project]/node_modules/next/dist/api/navigation.react-server.js [app-rsc] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/components/navigation.react-server.js [app-rsc] (ecmascript)");
 ;
 ;
 ;
 ;
 ;
-function Home() {
+;
+// 分类slug映射到数据
+const categoryMapping = {
+    "term-699": "featured",
+    "term-258": "chat",
+    "term-250": "writing",
+    "term-221": "art",
+    "term-235": "video",
+    "term-345": "audio",
+    "term-284": "code",
+    "term-371": "office"
+};
+// 分类名称映射
+const categoryNames = {
+    "term-699": "AI热门工具",
+    "term-258": "AI对话聊天",
+    "term-250": "AI文本写作",
+    "term-221": "AI绘画生成",
+    "term-235": "AI视频制作",
+    "term-345": "AI音频处理",
+    "term-284": "AI编程开发",
+    "term-371": "AI办公软件",
+    "term-367": "AI提示词库",
+    "term-1282": "AI搜索引擎",
+    "term-1257": "AI应用集成",
+    "term-241": "AI图像处理",
+    "term-272": "AI文档助手",
+    "term-1130": "AI内容鉴别",
+    "term-24": "AI教育学习",
+    "term-1373": "AI算力平台",
+    "term-3": "AI工具教程",
+    "term-167": "AI资讯情报",
+    "term-156": "AIGC资源",
+    "term-129": "AI模型开源",
+    "term-95": "AI商业应用",
+    "term-82": "AI学习社区",
+    "term-935": "AI解决方案"
+};
+// 临时数据，用于未实现的分类
+const placeholderSites = [
+    {
+        id: "placeholder1",
+        title: "示例工具1",
+        description: "这是一个示例工具，该分类的真实内容正在开发中",
+        imageUrl: "https://placehold.co/400x400?text=AI",
+        url: "#"
+    },
+    {
+        id: "placeholder2",
+        title: "示例工具2",
+        description: "这是一个示例工具，该分类的真实内容正在开发中",
+        imageUrl: "https://placehold.co/400x400?text=AI",
+        url: "#"
+    },
+    {
+        id: "placeholder3",
+        title: "示例工具3",
+        description: "更多工具即将上线，敬请期待",
+        imageUrl: "https://placehold.co/400x400?text=Coming+Soon",
+        url: "#"
+    }
+];
+function CategoryPage({ params }) {
+    const { slug } = params;
+    // 获取分类名称
+    const categoryTitle = categoryNames[slug];
+    if (!categoryTitle) {
+        (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
+    }
+    // 获取分类数据
+    let categorySites = [];
+    const categoryKey = categoryMapping[slug];
+    if (categoryKey && __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"][categoryKey]) {
+        categorySites = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"][categoryKey];
+    } else {
+        // 对于尚未实现的分类，使用占位数据
+        categorySites = placeholderSites;
+    }
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "flex flex-col min-h-screen",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Header"], {}, void 0, false, {
-                fileName: "[project]/src/app/page.tsx",
-                lineNumber: 9,
+                fileName: "[project]/src/app/[slug]/page.tsx",
+                lineNumber: 94,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "flex flex-1",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$sidebar$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["Sidebar"], {}, void 0, false, {
-                        fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 12,
+                        fileName: "[project]/src/app/[slug]/page.tsx",
+                        lineNumber: 97,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1167,114 +925,60 @@ function Home() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             className: "text-2xl font-bold text-center mb-2",
-                                            children: "AInav - AI导航网 | 发现优质AI工具，为你导航未来"
+                                            children: categoryTitle
                                         }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 17,
+                                            fileName: "[project]/src/app/[slug]/page.tsx",
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-gray-600 text-center max-w-3xl mx-auto",
-                                            children: "AI导航网收录了国内外1000+AI工具，AI绘画、AI对话聊天、AI视频制作等多个领域"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 18,
+                                            children: [
+                                                "探索",
+                                                categoryTitle,
+                                                "分类下的优质AI工具和资源"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/src/app/[slug]/page.tsx",
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
-                                    fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 16,
+                                    fileName: "[project]/src/app/[slug]/page.tsx",
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "py-4",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI热门工具",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].featured
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 24,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI对话聊天",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].chat
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 25,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI文本写作",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].writing
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 26,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI绘画生成",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].art
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 27,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI视频制作",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].video
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 28,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI语音工具",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].audio
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 29,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI代码助手",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].code
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 30,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
-                                            title: "AI办公工具",
-                                            sites: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$sites$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["aiTools"].office
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/page.tsx",
-                                            lineNumber: 31,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/page.tsx",
-                                    lineNumber: 23,
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$category$2d$section$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["CategorySection"], {
+                                        title: categoryTitle,
+                                        sites: categorySites
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/app/[slug]/page.tsx",
+                                        lineNumber: 109,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/src/app/[slug]/page.tsx",
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
-                            fileName: "[project]/src/app/page.tsx",
-                            lineNumber: 15,
+                            fileName: "[project]/src/app/[slug]/page.tsx",
+                            lineNumber: 100,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
-                        fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 14,
+                        fileName: "[project]/src/app/[slug]/page.tsx",
+                        lineNumber: 99,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
-                fileName: "[project]/src/app/page.tsx",
-                lineNumber: 11,
+                fileName: "[project]/src/app/[slug]/page.tsx",
+                lineNumber: 96,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -1288,35 +992,35 @@ function Home() {
                             " AI导航网 - 收录优质AI工具"
                         ]
                     }, void 0, true, {
-                        fileName: "[project]/src/app/page.tsx",
-                        lineNumber: 39,
+                        fileName: "[project]/src/app/[slug]/page.tsx",
+                        lineNumber: 117,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
-                    fileName: "[project]/src/app/page.tsx",
-                    lineNumber: 38,
+                    fileName: "[project]/src/app/[slug]/page.tsx",
+                    lineNumber: 116,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
-                fileName: "[project]/src/app/page.tsx",
-                lineNumber: 37,
+                fileName: "[project]/src/app/[slug]/page.tsx",
+                lineNumber: 115,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
-        fileName: "[project]/src/app/page.tsx",
-        lineNumber: 8,
+        fileName: "[project]/src/app/[slug]/page.tsx",
+        lineNumber: 93,
         columnNumber: 5
     }, this);
 }
 }}),
-"[project]/src/app/page.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
+"[project]/src/app/[slug]/page.tsx [app-rsc] (ecmascript, Next.js server component)": ((__turbopack_context__) => {
 
 var { g: global, __dirname } = __turbopack_context__;
 {
-__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/page.tsx [app-rsc] (ecmascript)"));
+__turbopack_context__.n(__turbopack_context__.i("[project]/src/app/[slug]/page.tsx [app-rsc] (ecmascript)"));
 }}),
 
 };
 
-//# sourceMappingURL=_84d8f906._.js.map
+//# sourceMappingURL=_d0c3b475._.js.map
